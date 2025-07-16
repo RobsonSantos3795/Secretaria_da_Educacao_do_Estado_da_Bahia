@@ -1,4 +1,4 @@
-function login() {
+/*function login() {
             const usernameInput = document.getElementById('username').value;
             const passwordInput = document.getElementById('password').value;
             const errorMessage = document.getElementById('errorMessage');
@@ -15,6 +15,24 @@ function login() {
             } else {
                 errorMessage.textContent = 'Usuário ou senha incorretos.';
             }
+}*/
+function login() {
+    const user = document.getElementById("username").value;
+    const pass = document.getElementById("password").value;
+
+    const validUsers = [
+        { username: "Joao@diretor", password: "sec123@"},
+        { username: "Robson@analista", password: "sec321@"}
+    ];
+
+    const isValid = validUsers.some(cred => cred.username === user && cred.password === pass);
+
+    if (isValid) {
+        localStorage.setItem('loggedIn', 'true');
+        window.location.href = 'index.html'; // Redireciona para a página inicial
+    } else {
+        errorMessage.textContent = 'Usuário ou senha incorretos.';
+    }
 }
 // Formulário de Cadastramento.
 function login2() {
