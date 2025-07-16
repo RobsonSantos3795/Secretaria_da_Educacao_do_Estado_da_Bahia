@@ -4,8 +4,8 @@ function login() {
             const errorMessage = document.getElementById('errorMessage');
 
             // Usuário e senha fixos para demonstração
-            const validUsername = 'usuario';
-            const validPassword = 'senha123';
+            const validUsername = 'Joao@diretor';
+            const validPassword = 'sec123@';
 
             if (usernameInput === validUsername && passwordInput === validPassword) {
                 // Se as credenciais estiverem corretas, armazena um "token" no localStorage
