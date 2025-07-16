@@ -1,0 +1,121 @@
+/* Estilos gerais para o corpo da página e containers de login */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Cor de fundo suave */
+    color: #333;
+}
+
+.titulo1 {
+    text-align: center;
+    color: #0056b3; /* Azul escuro para o título principal */
+    padding: 20px 0;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+.container {
+    width: 350px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.titulo2 {
+    color: #007bff; /* Azul vibrante para o título do formulário */
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+    
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+}
+
+button {
+    background-color: #007bff; /* Azul principal para os botões */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+}
+
+#paragrafo {
+    margin-top: 20px;
+    color: #666;
+}
+
+/* Estilos para o menu de navegação */
+.main-menu {
+    background-color: #007bff; /* Azul escuro para o fundo do menu */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Branco para o texto do menu */
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 0;
+    display: block;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.main-menu ul li a:hover {
+    color: #ff8c00; /* Laranja no hover */
+    border-bottom: 2px solid #ff8c00; /* Linha laranja abaixo no hover */
+}
+.container1 {
+    text-align: center;
+    display: inline-block;
+    background: rgb(226, 230, 231);
+    padding: 15px 15px;
+    border-radius: 12px;
+}
+.geral1 {
+    text-align: center;
+}
