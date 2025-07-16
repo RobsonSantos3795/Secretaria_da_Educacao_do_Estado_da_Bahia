@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main3.css">
+    <title>Página Inicial Protegida</title>
+</head>
+<body>
+    <script>
+        // Verifica se o usuário está logado
+        const isLoggedIn = localStorage.getItem('loggedIn');
+
+        if (isLoggedIn !== 'true') {
+            // Se não estiver logado, redireciona para a página de login
+            window.location.href = 'login.html';
+        }
+
+        // Você também pode adicionar um listener para o evento popstate para capturar
+        // o usuário usando o botão "Voltar" do navegador e forçar o redirecionamento.
+        window.addEventListener('popstate', function(event) {
+            const currentPath = window.location.pathname;
+            const loginPath = '/login.html'; // Ajuste conforme o caminho do seu arquivo de login
+
+            if (currentPath !== loginPath && localStorage.getItem('loggedIn') !== 'true') {
+                window.location.replace('login.html'); // Usa replace para impedir que o usuário volte para a página protegida
+            }
+        });
+    </script>
+
+    <div class="container">
+        <img src="Logo da Sec_Edu.png" alt="Logo Secretaria da Educação" class="logo">
+        <h1>Secretaria da Educação - Estado da Bahia</h1>
+        <h2>Armazenamento de Dados - DASHBOARDS Paineis</h2>
+        <p class="descricao">Site criado para agilizar e facilitar o acesso a informações importantes, melhorando a experiência do usuário.</p>
+
+        <div class="botoes-container">
+            <button class="botao" onclick="convenio()">Pasta Convênio</button>
+            <button class="botao" onclick="cst()">Pasta CST</button>
+            <button class="botao" onclick="ctran()">Pasta CTRAN</button>
+            <button class="botao" onclick="patrimonio()">Pasta Patrimônio</button>
+            <button class="botao" onclick="processante()">Pasta Comissão Processante</button>
+            <button class="botao" onclick="copel()">Pasta COPEL</button>
+            <button class="botao" onclick="astec()">Pasta ASTEC</button>
+            <button class="botao" onclick="df()">Pasta DF</button>
+            <button class="botao" onclick="da()">Pasta DA</button>
+            <button class="botao" onclick="contratos()">Pasta Contratos</button>
+            <button class="botao" onclick="encargos()">Pasta Encargos Gerais</button>
+            <button class="botao" onclick="suprimentos()">Pasta Suprimentos</button>
+            <button class="botao" onclick="orcamentaria()">Pasta Execução Orçamentária</button>
+            <button class="botao" onclick="ccs()">Pasta CCS</button>
+            <button class="botao" onclick="cof()">Pasta COF</button>
+            <button class="botao" onclick="contas()">Pasta Prestação de Contas</button>
+            <button class="sair" onclick="logout()">Sair</button>
+        </div>
+    </div>
+
+    <script>
+        function convenio() {
+     window.location.href = "convenio.html";
+    }
+    function cst() {
+        window.location.href = "cst.html";
+    }
+    </script>
+
+    <script>
+        function logout() {
+            localStorage.removeItem('loggedIn'); // Remove a flag de login
+            window.location.href = 'login.html'; // Redireciona de volta para a página de login
+        }
+    </script>
+</body>
+</html>
