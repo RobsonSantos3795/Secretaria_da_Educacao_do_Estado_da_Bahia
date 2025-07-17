@@ -68,3 +68,6 @@ function R() {
 function M() {
     window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiNWE5YzVkZDYtNTNhZi00NGUzLTk0OTgtYWFhYTdlZGIxNTFmIiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9";
 }
+function ativos() {
+    window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiMGI4OGE1Y2QtNjFhNC00NzkyLTllY2QtNjViNzFhY2ExMGFkIiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9";
+}
