@@ -51,23 +51,23 @@ function inicio2() {
 }
 // Caminho para Dashboards.
 function a() {
-    window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiYjdlNjZhMGUtYjNmOC00NTIxLTk5MDktN2NmNzc5ZGU5ZTNlIiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9";
+    window.location.href = "";
 }
 function b() {
-    window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiN2FjN2VmMzQtNjY2ZC00MWQ4LTkwMjItMDhmZmM4Y2MyZWNiIiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9";
+    window.location.href = "";
 }
 function TG() {
-    window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiZDhmMjA3NTUtNzgzYi00NDdlLWFmM2MtM2YzY2YwZTI4OWI3IiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9";
+    window.location.href = "";
 }
 function MAP() {
-    window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiZWM1MjU5ZmYtMmE0Ni00YmJiLWE0MGQtZjA4Yzc4MDQ2MGExIiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9";
+    window.location.href = "";
 }
 function R() {
-    window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiOWEwOWViNjMtNGRjMC00MDdmLWJhOTktMzJiNTIwOWE4YTk5IiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9";
+    window.location.href = "";
 }
 function M() {
-    window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiNWE5YzVkZDYtNTNhZi00NGUzLTk0OTgtYWFhYTdlZGIxNTFmIiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9";
+    window.location.href = "";
 }
 function ativos() {
-    window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiMGI4OGE1Y2QtNjFhNC00NzkyLTllY2QtNjViNzFhY2ExMGFkIiwidCI6Ijc3ODgzYzNiLWYwNjMtNDllYy1hMDA2LTYyYjljNWFjYTQ4ZSJ9";
+    window.location.href = "";
 }
